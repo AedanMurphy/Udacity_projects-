@@ -1,21 +1,14 @@
 # Landing Page Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-
 ## Instructions
+This project has a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+The starter project has some HTML and CSS styling to display a static version of the Landing Page project. The project was convertedfrom a static page to an interactive one.
 
 ## Work 
 
-- Add dynamic navigation bar
+- Add dynamic navigation bar (added 5th section to check if the navigation bar was working)
 - Add hover effect for each button in nav-bar
 - Scroll to the correspondent section while the button is clicked
-- Active section effect based on scrollY
+- Active section effect based on getBoundingClientRect() and adding and remove of an 'active' classlist 
 - Add section 4
