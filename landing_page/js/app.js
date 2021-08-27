@@ -52,13 +52,16 @@ const generateNav = ()=> {
 
 const activeView = ()=> {
     for (let viewPoint of sections){
-        
+        let navLi = document.querySelector(`a[href='#${viewPoint.id}']`);
         let view = viewPoint.getBoundingClientRect();
         if (view.top <= 150 && view.bottom >= 150) {
             viewPoint.classList.add('your-active-class');
+            navLi.classList.add('active')
         } else {
             viewPoint.classList.remove('your-active-class');
-        
+            navLi.classList.remove('active');
+        // add and remove li element. 
+        //bind each section to the LI 
         };
     };
 };
