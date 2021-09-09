@@ -1,6 +1,6 @@
 # Landing Page Project
 
-## Objective information
+## Objective
 This project has a multi-section landing page, with a dynamically updating navigational menu based on the amount of content that is added to the page.
 
 The starter project has some HTML and CSS styling to display a static version of the Landing Page project. The project was convertedfrom a static page to an interactive one.
