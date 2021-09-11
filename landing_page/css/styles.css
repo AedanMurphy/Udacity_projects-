@@ -88,6 +88,10 @@ section {
     transition: ease 0.3s all;
 }
 
+nav .active {
+	background: red;
+}
+
 /* Header Styles */
 .page__header {
     background: #fff;
