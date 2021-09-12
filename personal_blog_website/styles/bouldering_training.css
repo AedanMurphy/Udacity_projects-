@@ -1,0 +1,231 @@
+@import "footer_import.css";
+@import "header_import.css";
+@import "header_div_import.css";
+
+/*you need to find the cut-off points for media queries*/
+
+body {
+    background-color:whitesmoke;
+    font-family:Tahoma;
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+    margin: 30px;
+    max-width: 320px;
+    width: 100%;
+    grid-gap: 10px;
+    justify-content: space-around;
+    grid-template-columns: 320px;
+    grid-template-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "hd"
+    "nav"
+    "sd"
+    "sd"
+    "bd"
+    "ft";
+}
+
+
+.box {
+    background-color: #dff5e9;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+
+#header div {
+    font-size: 50px;
+    font-family:Tahoma
+}
+
+
+nav {
+    grid-area: nav;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    text-align: right;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-weight: 700;
+}
+
+
+aside {
+    grid-area: sd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.box-invisble {
+    background-color: none;
+    border: 0px solid black!important;
+    border-radius: 5px;
+}
+
+
+#flex-image1 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+
+#flex-image2 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#body {
+    grid-area: bd;
+    display:flex;
+    flex-direction: row;
+    display: block;
+    padding: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:321px) and (max-width: 400px) {
+    .container {
+        display: grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: 321px;
+        grid-template-rows: minmax(100px, auto);
+        grid-template-areas: 
+        "hd"
+        "nav"
+        "sd" 
+        "bd"
+        "ft";
+        }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 550px) {
+    .container {
+        display: grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: 401px;
+        grid-template-rows: minmax(100px, auto);
+        grid-template-areas: 
+        "hd"
+        "nav"
+        "sd" 
+        "bd"
+        "ft";
+        }
+}
+
+@media only screen and (min-width: 551px) and (max-width:600px) {
+    .container {
+        display: grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: 551px;
+        grid-template-rows: minmax(100px, auto);
+        grid-template-areas: 
+        "hd"
+        "nav"
+        "sd" 
+        "bd"
+        "ft";
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 750px) {
+    .container {
+        display:grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: 501px;
+        grid-template-rows: minmax(100px, auto); 
+        grid-template-areas: 
+        "hd"
+        "nav"
+        "sd" 
+        "bd"
+        "ft";
+        }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 751px) and (max-width: 850px) {
+    .container {
+        display:grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: 751px;
+        grid-template-rows: minmax(100px, auto); 
+        grid-template-areas: 
+        "hd"
+        "nav"
+        "sd" 
+        "bd"
+        "ft";
+        }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 851px) and (max-width: 1200px) {
+    .container {
+        display:grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: 283px 283px 283px;
+        grid-template-rows: minmax(100px, auto); 
+        grid-template-areas: 
+        "hd hd hd"
+        "nav nav nav"
+        "sd bd bd" 
+        "ft ft ft";
+        }
+}
+
+@media only screen and (min-width: 1201px) {
+    .container {
+        display:grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: 401px 400px 400px;
+        grid-template-rows: minmax(100px, auto); 
+        grid-template-areas: 
+        "hd hd hd"
+        "nav nav nav"
+        "sd bd bd" 
+        "ft ft ft";
+        }
+}

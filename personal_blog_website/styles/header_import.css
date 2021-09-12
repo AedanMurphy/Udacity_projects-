@@ -1,0 +1,10 @@
+#header {
+    grid-area:hd;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 700;
+    height: 100px;
+}
+

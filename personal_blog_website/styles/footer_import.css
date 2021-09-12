@@ -1,0 +1,28 @@
+footer {
+	grid-area: ft;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+	min-height: 30px;
+	color: #222;
+	text-align: center;
+}
+
+h3 {
+    width: auto;
+	height: 30px;
+	margin: 10px;
+    text-align: left;
+}
+
+
+div .link-img {
+	opacity: 0.7;
+	width: 30px;
+    height: 30px;
+	margin: 10px;
+}
+
+div .link-img:hover {
+	opacity: 0.4;
+}
