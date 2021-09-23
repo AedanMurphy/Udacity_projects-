@@ -1,10 +1,19 @@
 # Weather-Journal App Project
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+In this project I create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+## Features
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+- The use of Node express
+- Fetch requests to Get and Post data from the API credentials 
+- with an async function on the client side of the application to dynamically add inputted data with the use of InnerHTML DOM Properties
+
+# The project has:
+
+package.json file
+npm installed 
+CORS and Bodyparser dependencies
+JS version: ES2015/ES6
+JS Standard: ESlint
+
