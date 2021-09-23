@@ -11,9 +11,9 @@ In this project I create an asynchronous web app that uses Web API and user data
 
 # The project has:
 
-package.json file
-npm installed 
-CORS and Bodyparser dependencies
-JS version: ES2015/ES6
-JS Standard: ESlint
+- Package.json file
+- npm installed 
+- CORS and Bodyparser dependencies
+- JS version: ES2015/ES6
+- JS Standard: ESlint
 
