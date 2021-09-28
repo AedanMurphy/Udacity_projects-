@@ -44,9 +44,9 @@ function addData(req, res) {
     let data = req.body;
     console.log('Server side Data', data);
     const newEntryHolder = {
-        date: data.newDate,
+        date: data.date,
         temp: data.temp,
-        content: data.feeling,
+        content: data.content,
     }
     projectData = newEntryHolder;
     console.log(projectData);
