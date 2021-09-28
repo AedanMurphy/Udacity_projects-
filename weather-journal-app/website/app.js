@@ -26,7 +26,7 @@ function processData(e) {
                 console.log(data);
                 const temperature = data.main.temp;
                 postData('http://localhost:8000/addData', 
-                {date: date, temp: temperature, content: feeling})
+                {date: newDate, temp: temperature, content: feeling})
                 .then(function() {
                         updateUI()
         });
