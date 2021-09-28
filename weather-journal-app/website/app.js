@@ -8,7 +8,7 @@ console.log('The date is ' + newDate);
 
 // Personal API Key for OpenWeatherMap API
 const baseURL ='https://api.openweathermap.org/data/2.5/weather?zip=';
-const APIkey = '&appid=a7df853ffcfbd84c5237c6692376db71&units=metric';
+const APIkey = '';
 
 // Event listener to add function to existing HTML DOM element
 document.getElementById('generate').addEventListener('click', processData);
